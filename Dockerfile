@@ -39,7 +39,7 @@ ARG TARGETPLATFORM
 COPY --from=build /build/ /
 
 RUN case "$TARGETPLATFORM" in \
-        linux/arm64 | linux/amd64) \
+        linux/arm64 | linux/amd64 | linux/arm32v7) \
             apk add --no-cache nftables && \
              rm -vrf /var/log/apk.log ;; \
         *) echo "Unsupported platform: $TARGETPLATFORM" ;; \

@@ -1,4 +1,4 @@
 # nfqws2-mikrotik
-### Контейнер для установки NFQWS2 ZAPRET2 на MikroTik! Поддерживают только ARM64 и AMD64
+### Контейнер для установки NFQWS2 ZAPRET2 на MikroTik! 
 
-### Справка на [DockerHub](https://hub.docker.com/r/wiktorbgu/nfqws2-mikrotik)
+### Справка на [DockerHub]()
